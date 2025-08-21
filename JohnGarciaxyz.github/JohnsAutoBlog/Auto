@@ -1,0 +1,213 @@
+/* General Dark Mode Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+  line-height: 1.6;
+}
+
+header {
+  background: #1e1e1e;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #f05454; /* accent color */
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f05454;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.card {
+  background: #1e1e1e;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1e1e1e;
+  margin-top: 40px;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lifestyle, Travel, and Automotive Blog by John. Exploring exotic cars and adventures.">
+  <title>John's Lifestyle & Car Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>John's Lifestyle & Car Blog</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="blogs.html">Blogs</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Welcome!</h2>
+      <p>Where lifestyle meets speed & adventure. Follow me as I travel the world exploring exotic cars, hidden destinations, and everything in between.</p>
+    </section>
+
+    <section>
+      <h2>Featured Posts</h2>
+      <div class="card">
+        <h3>Chasing Supercars in Monaco</h3>
+        <p>From Lamborghinis to Bugattis, Monaco is a car enthusiast’s paradise...</p>
+      </div>
+      <div class="card">
+        <h3>Exploring the Desert in a Ford Raptor</h3>
+        <p>The Gen 1 Raptor is built for wild terrain. Here’s how it handled the Dubai desert...</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 John's Lifestyle & Car Blog</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me - John's Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>About Me</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="blogs.html">Blogs</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section>
+      <p>Hi, I’m John — a lifelong car enthusiast and travel junkie. My passion lies in exploring the world to track down the most exotic, legendary, and rare cars ever built.</p>
+
+      <h2>My Top 5 Cars</h2>
+      <ol>
+        <li><b>Porsche 930 (911 Turbo)</b> – The infamous “widowmaker,” raw and thrilling.</li>
+        <li><b>Lamborghini Countach</b> – The poster car of the ’80s that redefined supercars.</li>
+        <li><b>Gen 1 Ford Raptor</b> – The king of off-road performance trucks.</li>
+        <li><b>1967 Shelby GT500</b> – American muscle at its finest, thanks to Carroll Shelby.</li>
+        <li><b>Volkswagen Jetta GLI</b> – A sporty sleeper sedan with real European flair.</li>
+      </ol>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 John's Lifestyle & Car Blog</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blogs - John's Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Blog Sections</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="blogs.html">Blogs</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Automotive Travel Blogs</h2>
+      <div class="card"><p>Stories from traveling the world while chasing exotic cars.</p></div>
+    </section>
+
+    <section>
+      <h2>Travel Blogs</h2>
+      <div class="card"><p>Lifestyle + adventure travel, exploring culture and cities.</p></div>
+    </section>
+
+    <section>
+      <h2>In-Depth Car Blogs</h2>
+      <div class="card"><p>Detailed reviews, history, and breakdowns of classic & modern cars.</p></div>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 John's Lifestyle & Car Blog</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - John's Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="blogs.html">Blogs</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>Let's Connect</h2>
+      <p>If you're a fellow car enthusiast, traveler, or brand looking to collaborate, reach me at:</p>
+      <p><b>Email:</b> johngarciazyx@gmail.com</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 John's Lifestyle & Car Blog</p>
+  </footer>
+</body>
+</html>
